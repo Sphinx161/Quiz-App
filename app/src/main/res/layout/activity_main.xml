@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="127dp"
+        android:layout_height="109dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/showText"
+        android:text="@string/showQuestion"
+        android:textSize="26sp"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="114dp"
+            android:layout_height="60dp"
+            android:text="@string/true_value" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="114dp"
+            android:layout_height="60dp"
+            android:text="@string/false_value" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/previous"
+            android:src="@drawable/next"
+            android:layout_width="71dp"
+            android:layout_height="47dp" />
+
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="71dp"
+            android:layout_height="47dp"
+            android:src="@drawable/next2" />
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

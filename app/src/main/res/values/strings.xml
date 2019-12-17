@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">hackersQuiz</string>
+    <string name="correct">ABSOLUTELY CORRECT!</string>
+    <string name="Incorrect">OOPS! INCORRECT</string>
+
+    <string name="showQuestion">Removing a rootkit from an infected computer is extremely difficult.</string>
+    <string name="true_value">TRUE</string>
+    <string name="false_value">FALSE</string>
+    <string name="one">As a reaction to a rash of corporate fraud, the Gramm-Leach-Bliley Act (GLBA) is an attempt to fight corporate corruption.</string>
+    <string name="two">In a general sense, security is defined as a state of freedom from danger or risk.</string>
+    <string name="three">A script kiddie is an unskilled user who downloads automated attack software to attack computers.</string>
+    <string name="four"> SAN can be shared between servers but cannot be extended over geographical distances.</string>
+</resources>
